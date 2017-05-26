@@ -6,35 +6,4 @@
     android:layout_height="match_parent"
     tools:context="com.example.david.callwatcher.MainActivity">
 
-    <TextView android:id="@+id/text_id"
-        android:layout_width="377dp"
-        android:layout_height="362dp"
-        android:layout_marginRight="7dp"
-        app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginLeft="8dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_id"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="7dp"
-        android:layout_marginTop="94dp" />
-
-
-    <Button android:id="@+id/button_id"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-        android:layout_alignParentBottom="true"
-        android:text="@string/DO_IT"
-        tools:layout_editor_absoluteY="16dp"
-        tools:layout_editor_absoluteX="268dp" />
-
-    <EditText android:id="@+id/edit_text_id"
-        android:layout_width="238dp"
-        android:layout_height="53dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="192.168.1.X"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="16dp" />
-
-
 </android.support.constraint.ConstraintLayout>
